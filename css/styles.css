@@ -1,0 +1,69 @@
+body{
+  background-color: #ffdc73;
+}
+
+div p{ /*makes bio paragraph text smaller*/
+  font-size: 10px;
+}
+
+h1{
+  color:   	#a67c00;
+  text-align: center;
+}
+
+h2{
+  color:   	#bf9b30;
+  text-align: center;
+}
+
+h3{
+  color: 	#a67c00;
+  text-align: center;
+}
+
+img{
+  border: 10px inset  	#ffcf40;
+}
+
+li{
+  text-align: center;
+}
+
+strong{
+  color: 	#a67c00;
+}
+
+.bio{
+  border: 5px ridge #ffbf00;
+  background-color: #fdfd66;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.card{ /*to make the cards fit in better*/
+  border: 5px ridge #ffbf00;
+  background-color: #fdfd66;
+  font-family: sans-serif;
+}
+
+.contact{
+  border: 5px groove #fdfd66;
+  background-color:  	#ffcf40;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 5px;
+}
+
+.jumbotron{
+  background-color: #fdfd66;
+}
+
+.navbar-brand{
+  font-size: 300%;
+  text-align: center;
+}
+
+#shortbio{ /*csslint wants to kill me for this*/
+  font-family: monospace;
+  font-size: 100%;
+}
